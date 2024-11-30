@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.androiddemo"
+    namespace = "com.example.sharedkit"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.androiddemo"
+        applicationId = "com.example.sharedkit"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

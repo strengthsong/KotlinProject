@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.androiddemo"
+    namespace = "com.example.sharedrunner"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.androiddemo"
+        applicationId = "com.example.sharedrunner"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -46,8 +46,6 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
-    implementation(project(":moduleA"))
-    implementation(project(":moduleB"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
